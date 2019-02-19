@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<form action="https://mcslayer.com/hillel/post.php" accept-charset="windows-1251" method="post" target="_blank">
+		<div>
+			<input name="Логин" type="text" placeholder="Логин">
+		</div>
+		<div>
+			<input name="Пароль" type="password" placeholder="Пароль">
+		</div>
+		<div>
+			<input name="Фамилия" type="text" placeholder="Фамилия">
+		</div>
+		<div>
+			<input name="Имя" type="text" placeholder="Имя">
+		</div>
+		<div>
+			<input name="Пол" type="radio" value="Мужской" checked>Мужской
+			<input name="Пол" type="radio" value="Женский">Женский
+			<input name="Пол" type="radio" value="Не определился">Не определился
+		</div>
+		<div>
+			<input name="Дата рождения" type="date" placeholder="Дата рождения">
+		</div>
+		<div>
+			<input name="E-mail" type="email" placeholder="email">
+		</div>
+		<div>
+			<input name="Страна" type="text" placeholder="Страна">
+		</div>
+		<div>
+			<input name="Город" type="text" placeholder="Город">
+		</div>
+		Введите номер телефона в формате 38ххх-ххх-хх-хх
+		<div>
+			<input name="Номер телефона" type="text" pattern="38[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" placeholder="Номер телефона">
+		</div>
+		<div>
+			<input name="Напишите о себе" type="text" placeholder="Напишите о себе">
+		</div>
+		<div>
+			<select name="Родной язык">
+  				<option value="Русский">Русский</option>
+  				<option value="Английский">Английский</option>
+ 				<option value="Украинский">Украинский</option> 	
+ 				<option value="Немецкий">Немецкий</option> 	 						
+			</select>
+		</div>
+		<div>
+			<input name="check" type="checkbox" checked>Я разрешаю передать мои личные данные
+		</div>
+		<button type="reset">Reset</button>
+		<button><strong>Отправить</strong></button>
+	</form>
+</body>
+</html>

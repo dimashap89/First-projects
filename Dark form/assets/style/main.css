@@ -1,0 +1,124 @@
+
+.container {
+	max-width: 534px;
+	height: 97vh;
+	margin: 0 auto;
+}
+.header {
+	background-image: url(../image/layer1.jpg);
+	margin: 0 auto;
+	width: 534px;
+	height: 100%;
+	
+}
+.font-form {
+	position: absolute;
+	top: 84px;
+	left: 63px;
+	bottom: 143px;
+	right: 64px;
+	margin: 0 auto;
+}
+.button1 {
+	position: relative;
+	top: -580px;
+	left: 125px;
+	right: 319px;	
+	margin: 0 auto;
+	font-size: 24px;
+	text-transform: uppercase;
+	border: none;
+	background-color: transparent;
+	color: #3a3e46;
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+	outline: none;
+}
+.button2 {
+	position: relative;
+	top: -580px;
+	left: 200px;
+	right: 117px;
+	margin: 0 auto;
+	font-size: 24px;
+	text-transform: uppercase;
+	border: none;
+	background-color: transparent;
+	color: #ffffff;
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+	outline: none;
+}
+.form {
+	position: absolute;
+	top: 204px;
+	left: 123px;
+	right: 124px;	
+	margin: 0 auto;
+	text-align: center;
+}
+.email, .password {
+ 	text-transform: uppercase;
+ 	letter-spacing: 3.08px;
+ 	font-size: 14px;
+ 	font-family: 'Open Sans Hebrew', sans-serif;
+ 	font-weight: 700;
+ }
+ .input-email, .input-password {
+ 	width: 287px;
+ 	height: 30px;
+ 	font-style: italic;
+ 	opacity: 0.5;
+ }
+ .checkbox {
+ 	position: relative;
+ 	left: -98px;
+ 	opacity: 0.5;
+ 	font-family: 'Open Sans', sans-serif;
+ 	font-weight: 400;
+ 	font-size: 12px;	
+ }
+ .button3 {
+ 	width: 295px;
+ 	height: 40px;
+ 	text-transform: uppercase;
+ 	background-color: black;
+ 	color: white;
+ 	border: none;
+ 	font-family: 'Open Sans - Semibold', sans-serif;
+ 	font-weight: 400;
+ 	font-size: 12px;
+ 	letter-spacing: 3.15px;
+ 	outline: none;
+ }
+ .links {
+ 	position: absolute;
+ 	top: 460px;
+ 	bottom: 171px;
+ 	right: 164px;
+ 	left: 156px;
+ 	margin: 0 auto;
+ 	text-align: center;
+ 	font-family: 'Open Sans', sans-serif;
+ 	font-weight: 400;
+ 	font-size: 12px;
+ 	letter-spacing: 0.3px;
+ }
+.link1, .link2 {
+	text-decoration: none;
+}
+a:visited {
+	color: black;
+}
+.text-link1, .text-link2 {
+	opacity: 0.5;
+}
+.facebook {
+	position: absolute;
+	left: 124px;
+	right: 122px;
+	bottom: 98px;
+	top: 540px;
+	margin: 0 auto;
+	text-align: center;
+}

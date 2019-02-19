@@ -1,0 +1,301 @@
+body {
+	margin: 0;
+}
+.background {
+	position: fixed;
+	background: url(../image/Background.png);
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	overflow: scroll;
+}
+.backgrey {
+	text-align: center;
+	background: url(../image/Header-BG.png);
+	height: 520px;
+	opacity: 0.3;
+}
+.head {
+	margin-right: 510px;
+	padding-top: 90px;
+	position: relative;
+	color: white;
+	font-family: 'Georgia', sans-serif;
+	font-size: 18px;
+	font-style: italic;
+	display: inline-block;
+}
+.headlink {
+	position: relative;
+	display: inline-block;
+}
+.picture {
+	position: relative;
+	margin-top: -330px;
+	text-align: center;
+}
+.left-arrow, .right-arrow {
+	display: inline-block;
+}
+.left-arrow {
+	margin-right: 800px;
+}
+.arrows {
+	position: relative;
+	text-align: center;
+	margin-top: -230px;
+	margin-bottom: 200px;
+}
+.l-arrow, .r-arrow, .circle1, .circle2, .circle3, .circle4, .circle5, .down-l-arrow, .down-r-arrow {
+	border: none;
+	background: transparent;
+	outline: none;
+}
+.circles {
+	margin-bottom: 50px;
+	position: relative;
+	text-align: center;
+}	
+.welcome {
+	position: relative;
+	text-align: center;
+	color: #9b9b9b;
+	font-family: 'Georgia', sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+}
+.head-text {
+	position: relative;
+	text-align: center;
+	color: #9b9b9b;
+	font-family: 'Georgia', sans-serif;
+	font-size: 60px;
+	font-weight: 400;
+}
+.col-1::first-line {
+	line-height: 40px;
+	color: #9b9b9b;
+	font-family: 'Georgia', sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+}
+.col-1, .col-2, .col-3 {
+	color: #9b9b9b;
+	font-family: 'Georgia', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 8px;
+	display: inline-block;
+	text-align: left;
+}
+.col-1:before {
+	content: url(../image/male.png);
+}
+.col-2::first-line {
+	line-height: 40px;
+	color: #9b9b9b;
+	font-family: 'Georgia', sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+}
+.col-2 {
+	margin: 0 70px 0 70px;
+}
+.col-2:before {
+	content: url(../image/Chat.png);
+}
+.col-3::first-line {
+	line-height: 40px;
+	color: #9b9b9b;
+	font-family: 'Georgia', sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+}
+.col-3:before {
+	content: url(../image/Settings.png);
+}
+.columns {
+	text-align: center;
+}
+.backgrey-2 {
+	background: url(../image/Header-BG.png);
+	height: 740px;
+	opacity: 0.3;
+	margin-top: 50px;
+}
+.pics, .girl {
+	display: inline-block;
+}
+.pics {
+	margin-right: 27px;
+}
+.all-pics {
+	text-align: center;
+	position: relative;
+	margin-top: -655px;
+}
+.down-left-arrow, .down-right-arrow {
+	display: inline-block;
+	margin-left: 410px;
+	margin-right: -80px;
+}
+.down-arrows {
+	text-align: center;
+	position: relative;
+	margin-top: -70px;
+}
+.signature {
+	background: url(../image/back-sign.png);
+	opacity: 0.95;
+	color: #9b9b9b;
+	font-family: 'Georgia', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 15px;
+	padding-top: 15px;
+	padding-left: 60px;
+	width: 397px;
+	height: 87px;
+	margin: 0 auto;
+}
+.sign {
+	margin-left: 490px;
+	margin-top: -110px;
+}
+.name, .email, .url {
+	padding-left: 10px;
+	width: 459px;
+	height: 49px;
+	border: 1px solid #202020;
+	background-color: #282828;
+}
+.input-email, .input-name, .input-url {
+	width: 435px;
+	margin-top: 15px;
+	border: none;
+	background: transparent;
+	outline: none;
+	color: #878787;
+	font-family: 'Georgia', sans-serif;
+	font-size: 16px;
+	font-style: italic;
+}
+.textarea {
+	width: 469px;
+	height: 160px;
+	border: 1px solid #202020;
+	background-color: #282828;
+	color: #878787;
+	font-family: 'Georgia', sans-serif;
+	font-size: 16px;
+	font-style: italic;
+}
+.submit {
+	width: 127px;
+	height: 48px;
+	border: 1px solid #202020;
+	background-color: #282828;
+	color: #7f7f7f;
+	font-family: 'Georgia', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+}
+.email, .url, .textarea, .submit {
+	margin-top: 20px;
+}
+.input-name, .input-email, .input-url::placeholder {
+	color: #878787;
+	font-family: 'Georgia', sans-serif;
+	font-size: 16px;
+	font-style: italic;
+}
+.name:before {
+	content: url(../image/male.png);
+}
+.email:before {
+	content: url(../image/Mail.png);
+}
+.url:before {
+	content: url(../image/Globe.png);
+}
+.form, .foto {
+	float: left;
+}
+.about::first-line {
+	color: #9b9b9b;
+	font-family: 'Georgia', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 30px;
+}
+.about {
+	color: #9b9b9b;
+	font-family: 'Georgia', sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 10px;
+}
+.contact {
+	margin-top: 50px;
+	color: #9b9b9b;
+	font-family: 'Georgia', sans-serif;
+	font-size: 14px;
+	font-style: italic;
+	line-height: 10px;
+	position: relative;
+	left: 25px;
+}
+.link-mail, .link-phone {
+	color: #f0f0f0;
+	font-family: 'Georgia - Italic', sans-serif;
+	text-decoration: none;
+	outline: none;
+}
+.links {
+	margin-top: 40px;
+	color: #9b9b9b;
+	font-family: 'Georgia', sans-serif;
+	font-size: 14px;
+	position: relative;
+	left: 25px;
+}
+.twitter, .facebook, .dribbble, .flickr {
+	color: #f0f0f0;
+	font-family: 'Georgia-Italic', sans-serif;
+	font-style: italic;
+	text-decoration: none;
+	outline: none;
+	font-size: 14px;
+}
+.floats {
+	margin-top: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 950px;
+}
+.foto {
+	margin: 0 25px 0 25px;
+}
+.copy {
+	height: 50px;
+	margin-top: 200px;
+	padding-top: 40px;
+	border-top: 1px solid;
+	border-top-color: rgba(155, 155, 155, 0.5);
+	width: 950px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.copyright {
+	color: #9b9b9b;
+	font-family: 'Georgia', sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+	margin-right: 565px;
+}
+.tw-link, .face-link, .w3-link, .html-link, .go-link {
+	text-decoration: none;
+	outline: none;
+	margin-right: 10px;
+}

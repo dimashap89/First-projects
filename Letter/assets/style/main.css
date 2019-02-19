@@ -1,0 +1,55 @@
+.header {
+	margin: 50px;
+	text-align: center;
+}
+.design, .adress, .phones, .links {
+	display: inline-block;
+	margin-right: 30px;
+}
+.container {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin: 0 60px 0 60px;
+	border-top: 4px solid #d7d7d7;
+	border-bottom: 2px solid #d7d7d7;
+}
+.adress {
+	line-height: 6px;
+}
+.links {
+	vertical-align: 17px;
+}
+.greeting {
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	font-size: 15px;
+	margin: 30px 0 30px 325px;
+}
+.side-text {	
+	font-family: 'Lato', sans-serif;
+	font-size: 15px;
+	line-height: 5px;
+	margin: 60px;
+	display: inline-block;
+	vertical-align: 477px;
+}
+.letter {
+	font-family: 'Lato', sans-serif;
+	font-size: 15px;
+	line-height: 5px;
+	display: inline-block;
+	margin-left: 78px;
+}
+.indent {
+	margin-top: 2em;
+}
+.indent1 {
+	margin: 2em 0 3em 0;
+}
+.signature {
+	margin: 0 0 250px 250px;
+}
+.footer {
+	margin-bottom: 50px;
+	text-align: center;
+}
