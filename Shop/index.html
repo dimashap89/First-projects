@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Homework#10</title>
+	<link rel="stylesheet" href="style/main.css">
+</head>
+<body>
+	<div class="shop">
+		<div class="categories"></div>
+		<div class="products"></div>
+		<div class="information"></div>
+	</div>
+	<form class="form">
+		<p><input class="name" type="text" name="name" placeholder="ФИО"></p>
+	   	<select name="city" class="city">
+	       <option value="0">--Выберите город--</option>
+	       <option value="Odessa">Одесса</option>
+	       <option value="Kiev">Киев</option>
+	       <option value="Kharkiv">Харьков</option>
+   		</select><p>
+		<p><input class="storage" type="text" name="storage" placeholder="№ склада Новой Почты"></p>
+		<p><input class="payment" type="radio" name="payment" value="Наложенный платеж">Наложенный платеж</p>
+		<p><input class="payment" type="radio" name="payment" value="Оплата банковской картой">Оплата банковской картой</p>
+		<p><input class="quantity" type="text" name="quantity" placeholder="Количество товара"></p>
+	   	<textarea name="comments" class="comments" placeholder="Комментарий к заказу"></textarea>
+		<p><input type="submit" name="send" value="Подтвердить"></p>
+		<p><input type="reset" value="Очистить"></p>
+		<p><input class="cancel" type="button" value="Передумал покупать"></p>
+	</form>
+
+	<script src="js/structure.js"></script>
+	<script src="js/actions.js"></script>
+	<script src="js/form.js"></script>
+	<script src="js/check.js"></script>
+</body>
+</html>
